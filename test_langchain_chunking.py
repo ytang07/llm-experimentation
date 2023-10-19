@@ -20,9 +20,6 @@ headers_to_split_on = [
 ]
 path='./notion_docs'
 
-default_chunk_size = 64
-default_chunk_overlap = 8
-
 def test_langchain_chunking(docs_path, splitters, chunk_size, chunk_overlap, drop_collection=True):
 
     path=docs_path
